@@ -1,0 +1,9 @@
+filename: "data/train.csv"
+target_name: "target"
+drop_features: ["ID_code"]
+used_features: None
+n_rows: 20000
+
+model_name: "catboost"
+cv_strategy: "kfold"
+n_folds: 5
